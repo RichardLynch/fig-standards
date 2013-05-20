@@ -118,6 +118,9 @@ namespace PSR\Cache;
  */
 interface Pool
 {
+
+    protected $prefix;
+
     /**
      * Returns objects which implement the Cache\Item interface.
      *
